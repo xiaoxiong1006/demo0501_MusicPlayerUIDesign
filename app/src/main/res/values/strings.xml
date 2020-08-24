@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">demo0501_MusicPlayerUIDesign</string>
+    <string name="lyrics">歌词</string>
+    <string name="current_time_string">1:37</string>
+    <string name="total_time_string">4:12</string>
+    <string name="current_song_title">当前歌曲名称</string>
+    <string name="artist_name">歌手姓名</string>
+    <string name="now_playing">正在播放</string>
+    <string name="up_description">上拉显示歌词</string>
+    <string name="play_description">播放</string>
+    <string name="previous_description">上一首</string>
+    <string name="next_description">下一首</string>
+    <string name="shuffle_description">随机播放</string>
+    <string name="repeat_description">随机播放</string>
+    <string name="back_description">返回</string>
+    <string name="menu_description">菜单</string>
 </resources>
+
