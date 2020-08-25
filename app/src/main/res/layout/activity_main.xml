@@ -36,6 +36,72 @@
             android:contentDescription="@string/up_description"
             android:tint="@color/colorPrimary"/>
 
+        <ImageButton
+            android:id="@+id/button_play"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            app:layout_constraintBottom_toTopOf="@+id/image_lyrics"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/ic_play"
+            android:background="@drawable/play_button_background"
+            android:tint="@color/colorWhite"
+            android:contentDescription="@string/app_name"
+            android:padding="16dp"/>
+
+        <ImageButton
+            android:id="@+id/button_previous"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:layout_constraintTop_toTopOf="@id/button_play"
+            app:layout_constraintBottom_toBottomOf="@id/button_play"
+            app:layout_constraintEnd_toStartOf="@id/button_play"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_previous"
+            android:background="@drawable/next_previous_button_background"
+            android:padding="8dp"
+            android:contentDescription="@string/previous_description"/>
+
+        <ImageButton
+            android:id="@+id/button_next"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:layout_constraintTop_toTopOf="@id/button_play"
+            app:layout_constraintBottom_toBottomOf="@id/button_play"
+            app:layout_constraintStart_toEndOf="@id/button_play"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_next"
+            android:background="@drawable/next_previous_button_background"
+            android:padding="8dp"
+            android:contentDescription="@string/next_description"/>
+
+        <ImageButton
+            android:id="@+id/button_shuffle"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:layout_constraintTop_toTopOf="@id/button_play"
+            app:layout_constraintBottom_toBottomOf="@id/button_play"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="24dp"
+            android:src="@drawable/ic_shuffle"
+            android:background="@null"
+            android:contentDescription="@string/shuffle_description"/>
+
+        <ImageButton
+            android:id="@+id/button_repeat"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:layout_constraintTop_toTopOf="@id/button_play"
+            app:layout_constraintBottom_toBottomOf="@id/button_play"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/ic_repeat"
+            android:background="@null"
+            android:contentDescription="@string/repeat_description"/>
+
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
